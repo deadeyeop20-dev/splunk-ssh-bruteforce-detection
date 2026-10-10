@@ -45,6 +45,23 @@ The lab consists of multiple virtual machines and security components working to
 
 Workflow: Attack Simulation → Log Collection → Splunk Investigation → IP Blocking → Response Validation
 
+# Key Findings and Incident Response
+
+- Simulated SSH brute-force attempts against the Ubuntu SSH server using Hydra in a controlled lab.
+- Investigated SSH-related logs in Splunk Enterprise.
+- Used the collected logs to examine the authentication activity.
+- Applied an IP-blocking rule as an incident response measure.
+- Performed response validation to check the effectiveness of the blocking rule.
+
+# Skills Demonstrated
+
+- SIEM deployment and log analysis
+- Splunk Universal Forwarder configuration
+- SSH security monitoring
+- Controlled attack simulation with Hydra
+- Firewall configuration and IP blocking
+- Basic incident response and validation
+
 # Project Screenshots
 
 # 1. Splunk Enterprise
