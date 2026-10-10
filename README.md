@@ -30,3 +30,26 @@ This project demonstrates how to simulate an SSH brute-force attack in a control
 
 # Disclaimer
 This project was performed in a controlled lab environment for educational purposes. Attack simulations should only be conducted on systems you own or have explicit permission to test.
+
+# Project Screenshots
+
+# 1. Splunk Enterprise
+![Splunk Enterprise](screenshots/01-splunk-enterprise.png)
+
+# 2. SSH Log Ingestion
+![SSH Log Ingestion](screenshots/02-ssh-log-ingestion.png)
+
+# 3. pfSense Configuration
+![pfSense Configuration](screenshots/03-pfsense-configuration.png)
+
+# 4. Hydra Attack Simulation
+![Hydra Attack Simulation](screenshots/04-hydra-simulation.png)
+
+# 5. Splunk Detection Results
+![Splunk Detection Results](screenshots/05-spl-detection-results.png)
+
+# 6. IP Blocking Rule
+![IP Blocking Rule](screenshots/06-ip-block-rule.png)
+
+# 7. Response Validation
+![Response Validation](screenshots/07-07-response-validation.png)
