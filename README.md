@@ -31,6 +31,20 @@ This project demonstrates how to simulate an SSH brute-force attack in a control
 # Disclaimer
 This project was performed in a controlled lab environment for educational purposes. Attack simulations should only be conducted on systems you own or have explicit permission to test.
 
+# Network Architecture
+
+The lab consists of multiple virtual machines and security components working together to simulate, monitor, and respond to SSH brute-force activity.
+
+**Components:**
+- Kali Linux: Generates controlled SSH brute-force test traffic using Hydra.
+- Ubuntu Server: Hosts the SSH service and Splunk Enterprise.
+- Windows: Sends selected system logs through Splunk Universal Forwarder.
+- Ubuntu Universal Forwarder: Collects and forwards configured logs.
+- pfSense: Provides network security controls and IP-blocking functionality.
+- Splunk Enterprise: Receives and analyzes logs for security investigation.
+
+Workflow: Attack Simulation → Log Collection → Splunk Investigation → IP Blocking → Response Validation
+
 # Project Screenshots
 
 # 1. Splunk Enterprise
